@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default, .navbar-collapse {
+    border: 0;
+}
+
+.navbar {
+    min-height: 5em;
+}
+
+ul#nav-list {
+    margin-top: 1.6em;
+}
+
+div.nav-toggle-content {
+    border: 0;
+}
+
+ul#nav-list li {
+    padding: 0;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    margin: 0;
+    border-bottom: 2px solid darkgrey;
+}
+
+ul#nav-list li:nth-child(1) {
+    border-top: 2px solid darkgrey;
+}
+
+/* .navbar-collapse {
+    clear: both;
+} */
+
+
+nav h1 {
+    font-size: 2em;
+    margin: 0.1em 0 0 0.5em;
+}
+
+div#main-content {
+    margin-top: 1em;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2.3em;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5em 0 0 0.5em;
+}
+
+div.menu-title {
+    margin-bottom: 2em;
+}
+
+div.dish-info {
+    background-color: grey;
+    margin: 0 0 3em;
+    min-height: 80em;
+}
+
+h2.dish-name {
+    font-size: 1.5em;
+    margin: 0.5em 0 0 0.5em;
+}
+
+p.dish-description {
+    color: white;
+    margin-top: 1em;
+    font-size: 1.1em;
+}
