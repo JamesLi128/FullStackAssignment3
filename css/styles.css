@@ -64,9 +64,12 @@ div.menu-title {
     margin-bottom: 2em;
 }
 
-div.dish-info {
+.dish-info {
+    position: relative;
     background-color: grey;
-    margin: 0 0 3em;
+    padding-right: 1em;
+    border-right: 1em solid white;
+    margin-bottom: 2em;
     min-height: 80em;
 }
 
@@ -75,8 +78,13 @@ h2.dish-name {
     margin: 0.5em 0 0 0.5em;
 }
 
-p.dish-description {
+div.dish-info p {
     color: white;
     margin-top: 1em;
     font-size: 1.1em;
+}
+
+p.back-to-top-link {
+    position: absolute;
+    bottom: 0;
 }
